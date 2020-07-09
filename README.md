@@ -1,4 +1,4 @@
-# Custom Terminal Settup
+# Custom Terminal Setup
 
 This is a guide to the setting of a custom terminal using iTerm, oh-my-zsh and tmux.
 
