@@ -10,11 +10,11 @@ In order to install iTerm, download it on the link https://www.iterm2.com/
 
 ## Oh-My-Zsh
 
-**Oh-y-zsh** is tool to customize your terminal interface using different colors themes and caracteres.
+**Oh-y-zsh** is a tool to customize your terminal interface using different colors themes and characteres.
 
 Install oh-my-zsh using the tutorial on https://github.com/robbyrussell/oh-my-zsh
 
-It's made using a `curl` or `wget` command. Super simple.
+It can be done by using a `curl` or `wget` command. Super simple.
 
 ## PowerLevel9K
 
@@ -28,7 +28,7 @@ Powerline is a package of fonts used by **POWERLEVEL9K** theme. Install the font
 
 ## Text Fonts
 
-After all this proccess, on Mac OS, open iTerm (or you terminal) and alter you terminal fonts to `Meslo LG M DZ Regular for Powerline` and set the **Non-ASCII Font** to the same.
+On Mac OS, open iTerm (or you terminal) and alter you terminal fonts to `Meslo LG M DZ Regular for Powerline` and set the **Non-ASCII Font** to the same.
 
 ## Solarized Dark
 
