@@ -2,33 +2,29 @@
 
 This is a guide to the setting of a custom terminal using iTerm, oh-my-zsh and tmux.
 
-## iTerm
+## iTerm2
 
-**iTerm** is an alternative to the default Mac (OS X) terminal interface. They both have the same goal, but different layout and colors scheme. If you do not use Mac, you don't need to install it.
+**iTerm2** is an alternative to the default Mac (OS X) terminal interface. They both have the same goal, but different layout and colors scheme. If you do not use Mac, you don't need to install it.
 
 In order to install iTerm, download it on the link https://www.iterm2.com/
 
 ## Oh-My-Zsh
 
-**Oh-y-zsh** is a tool to customize your terminal interface using different colors themes and characteres.
+**Oh-y-zsh** is a tool to manage your ZSH (a more robust version of sh) configuration.
 
 Install oh-my-zsh using the tutorial on https://github.com/robbyrussell/oh-my-zsh
 
 It can be done by using a `curl` or `wget` command. Super simple.
 
-## PowerLevel9K
+## PowerLevel10K
 
-POWERLEVEL9K is a terminal theme. In order to install it for oh-my-zsh, run the command `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+POWERLEVEL10K is a tool to customize your terminal interface using different colors themes, icons and characteres. In order to install it for oh-my-zsh, use the tutorial described on https://github.com/romkatv/powerlevel10k. Also pretty simple.
 
-After install it, open the `.zshrc` file and alter the `ZSH_THEME` option to `ZSH_THEME="powerlevel9k/powerlevel9k"`.
+After install it, open the `.zshrc` file and alter the `ZSH_THEME` option to `ZSH_THEME="powerlevel10k/powerlevel10k"`.
 
-## Powerline Fonts
+## Wizard
 
-Powerline is a package of fonts used by **POWERLEVEL9K** theme. Install the fonts using the tutorial on https://github.com/powerline/fonts
-
-## Text Fonts
-
-On Mac OS, open iTerm (or you terminal) and alter you terminal fonts to `Meslo LG M DZ Regular for Powerline` and set the **Non-ASCII Font** to the same.
+Run the command `source $HOME/.zshrc` and a PowerLevel10K wizard will show in order to configure your terminal according to your preferences. Follow the instructions.
 
 ## Solarized Dark
 
